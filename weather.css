@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.weatherapp{
+    background-image: url('iceland-2111811_1280.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+font-size: 48px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title input{
+
+    height: 35px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid red;
+    color: aqua;
+    outline: none;
+}
+.title button{
+    background-color: aqua;
+    color: black ;
+    padding: 10px, 20px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: none;
+}
+.weatherdiv{
+    width: 25%;
+
+}
+.weatherinfo{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('astronomy-1867616_1280.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    color: blue;
+    text-align: center;
+}
+.weatherdivcontainer{
+    display: flex;
+    justify-content: center;
+}
+.weatherapp button{
+    height:40px;
+    width:80px;
+}
